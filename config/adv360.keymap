@@ -47,7 +47,7 @@
             bindings = <
 &kp EQUAL  &mt F1 NUMBER_1  &mt F2 NUMBER_2  &kp N3    &mt F4 NUMBER_4  &mt F5 N5  &tog 1                                                   &mo 3      &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
 &kp TAB    &kp Q            &kp W            &kp E     &kp R            &kp T      &none                                                    &none      &kp Y   &kp U   &kp I      &kp O    &kp P     &kp LEFT_BRACKET
-&kp ESC    &kp A            &kp S            &kp D     &kp F            &kp G      &mo 2     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp ESC    &kp A            &kp S            &kp D     &kp F            &kp G      &mo 2     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &mo 2      &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z            &kp X            &kp C     &kp V            &kp B                           &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
 &kp LCTRL  &kp GRAVE        &kp CAPS         &kp LEFT  &kp RIGHT                   &kp BSPC  &kp DEL    &kp RALT      &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp SQT  &kp RBKT  &mo 2
             >;
@@ -65,11 +65,11 @@
 
         fn {
             bindings = <
-&kp F1             &kp F2         &kp F3             &kp F4            &kp F5     &kp F6  &tog 1                                      &mo 3   &kp F7                &kp F8                 &kp F9            &kp F10            &kp F11         &kp F12
-&trans             &trans         &kp RA(NUMBER_2)   &kp RA(NUMBER_3)  &trans     &trans  &to 4                                       &none   &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp RA(NUMBER_7)  &kp RA(N0)         &trans          &trans
-&trans             &trans         &trans             &trans            &trans     &trans  &none   &trans  &trans      &trans  &trans  &none   &trans                &trans                 &trans            &trans             &trans          &trans
-&kp RA(BACKSLASH)  &kp BACKSLASH  &kp LS(BACKSLASH)  &kp LS(LC(C))     &kp LC(V)  &trans                  &trans      &trans                  &trans                &trans                 &trans            &kp C_VOLUME_UP    &trans          &kp C_PLAY_PAUSE
-&trans             &trans         &trans             &trans            &trans             &trans  &trans  &trans      &trans  &trans  &trans                        &trans                 &trans            &kp C_VOLUME_DOWN  &kp C_PREVIOUS  &kp C_NEXT
+&kp F1                    &kp F2                &kp F3                    &kp F4            &kp F5     &kp F6  &tog 1                                      &mo 3   &kp F7                &kp F8                 &kp F9            &kp F10            &kp F11         &kp F12
+&trans                    &trans                &kp RA(NUMBER_2)          &kp RA(NUMBER_3)  &trans     &trans  &to 4                                       &none   &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp RA(NUMBER_7)  &kp RA(N0)         &trans          &trans
+&trans                    &trans                &trans                    &trans            &trans     &trans  &none   &trans  &trans      &trans  &trans  &none   &trans                &trans                 &trans            &trans             &trans          &trans
+&kp RA(NON_US_BACKSLASH)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LC(C)         &kp LC(V)  &trans                  &trans      &trans                  &trans                &trans                 &trans            &kp C_VOLUME_UP    &trans          &kp C_PLAY_PAUSE
+&trans                    &trans                &trans                    &trans            &trans             &trans  &trans  &trans      &trans  &trans  &trans                        &trans                 &trans            &kp C_VOLUME_DOWN  &kp C_PREVIOUS  &kp C_NEXT
             >;
         };
 
