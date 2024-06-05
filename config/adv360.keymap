@@ -67,7 +67,7 @@
             bindings = <
 &kp F1                    &kp F2                &kp F3                    &kp F4            &kp F5     &kp F6  &tog 1                                      &mo 3   &kp F7            &kp F8            &kp F9            &kp F10            &kp F11         &kp F12
 &trans                    &trans                &kp RA(NUMBER_2)          &kp RA(NUMBER_3)  &trans     &trans  &to 4                                       &none   &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp RA(NUMBER_7)  &kp RA(N0)         &trans          &trans
-&trans                    &trans                &trans                    &trans            &trans     &trans  &none   &trans  &trans      &trans  &trans  &none   &trans            &trans            &trans            &trans             &trans          &kp HASH
+&trans                    &trans                &trans                    &trans            &trans     &trans  &none   &trans  &trans      &trans  &trans  &none   &trans            &trans            &trans            &trans             &kp BSLH        &kp HASH
 &kp RA(NON_US_BACKSLASH)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LC(C)         &kp LC(V)  &trans                  &trans      &trans                  &trans            &trans            &trans            &kp C_VOLUME_UP    &trans          &kp C_PLAY_PAUSE
 &trans                    &trans                &trans                    &trans            &trans             &trans  &trans  &trans      &trans  &trans  &trans                    &trans            &trans            &kp C_VOLUME_DOWN  &kp C_PREVIOUS  &kp C_NEXT
             >;
